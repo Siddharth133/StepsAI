@@ -27,7 +27,7 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/document-search-qa-system.git
+    git clone [https://github.com/yourusername/document-search-qa-system.git](https://github.com/Siddharth133/StepsAI.git)
     cd document-search-qa-system
     ```
 
