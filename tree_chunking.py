@@ -1,3 +1,14 @@
+"""
+This file is the logic to extract the text from the PDF file and store in accordance with
+the JSON struture mentioned in the ToC_json.py file.
+
+We need to define manually what is the struture of the page number and the title of each
+section and chapter in the book.
+
+"""
+
+
+# This is the logic for the Natural Language Processing with Python book
 import json
 import re
 
@@ -89,6 +100,8 @@ print(f"Content extracted and JSON file updated successfully. Total word count: 
 
 # ---------------------------------------------------------------------------------------------------
 
+
+# This is the logic for the book Hands-On Machine Learning with Scikit-Learn and TensorFlow
 import json
 import re
 

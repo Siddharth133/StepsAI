@@ -1,3 +1,14 @@
+"""
+This Code create the index of the content from the json files and save the index 
+in the pickle file.
+
+This Code need to run only once to create the index and save it in the pickle file.
+
+When the user add any other new document in the json file we will list that file down 
+in the json_files list and run the code to generate the index.
+"""
+
+
 import json
 import pickle
 from sentence_transformers import SentenceTransformer, util

@@ -1,3 +1,14 @@
+"""
+This files includes the logic of parsing the Table of Content (ToC) 
+from the PDF file and converting it into a JSON file.
+
+We need to make a txt file of the ToC and make the logic using the regex to 
+parse the text file and convert it into the json format.
+
+"""
+
+
+# This is for the book Natural Language Processing with Python
 import json
 import re
 
@@ -49,8 +60,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 # -------------------------------------------------------------------------------------
 
+# This is for the book Hands-On Machine Learning with Scikit-Learn and TensorFlow
 import re
 import json
 
