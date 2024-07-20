@@ -54,8 +54,9 @@ The final implementation achieved efficient and accurate document retrieval with
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Results](#Results)
+- [Solution/Approach](#Solution/Approach)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -118,7 +119,7 @@ StepsAI/
 └── index.pkl             # Pre-built index file
 
 ```
-## Results
+# Results
 
 
 ![initial](https://github.com/user-attachments/assets/289ac113-ea1d-4f95-891b-89411a166cca)
@@ -131,7 +132,7 @@ StepsAI/
 
 
 
-## Solution/Approach
+# Solution/Approach
 
 I will be discussing the chain of thought I had on the problem statement when I first read it, what I was able to implement, and how much I achieved in this short span of time.
 
@@ -176,13 +177,15 @@ I will be discussing the chain of thought I had on the problem statement when I 
 The final implementation achieved efficient and accurate document retrieval and question answering, with enhanced context preservation and user experience. The system demonstrates the ability to understand complex queries, retrieve relevant information from a large textbook, and generate coherent answers, all while maintaining the structural integrity of the source material.
 
 
-## Future Improvements
+# Future Improvements
 
 - **Enhance Answer Generation:** Improve the LLM's accuracy and relevance by fine-tuning with domain-specific data and better prompt engineering.
 - **Optimize Performance:** Further optimize indexing and retrieval algorithms for increased speed and scalability.
 - **Expand Query Techniques:** Implement additional query expansion techniques to improve retrieval accuracy.
 - **User Interface Enhancements:** Add more interactive features to the Streamlit interface for a better user experience.
+-  **Mixture of Experts(MoE) Model:** Implement a mixture of experts model to dynamically select the best retrieval and answering strategies, enhancing flexibility, accuracy, and performance.
+-  **Real-Time Document Processing:** Implement functionality for users to upload their own documents in real-time. This feature would dynamically process, index, and integrate new documents into the existing knowledge base, allowing the system to answer queries from newly uploaded content without pre-processing or system redeployment. This enhancement would significantly increase the platform's flexibility and usefulness across various domains and use cases.
 
-## License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
