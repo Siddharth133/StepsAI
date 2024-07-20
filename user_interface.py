@@ -100,14 +100,14 @@ llm = HuggingFaceHub(
 
 # Template for query expansion
 template = """
+Use the context provided to generate an accurate answer for the query.
 You are a knowledgeable assistant. Given the context below, answer the question concisely and accurately.
-You consider only the those context which are relevant to the query and most relevant to the Query.
-
+The answer should be in the form of complete sentences and provide a clear explanation.
+Use External Resources if necessary.
+Answer Provide should involve the main word query defination, use and example.
 Original Query: {question}
-Context: {context}
-
-Answer the above query based on the context provided
-Answer : 
+Context : {context}
+Answer :
 """
 
 prompt = PromptTemplate(
@@ -137,7 +137,7 @@ if query:
         query_results = index.search(query)
         
         if query_results:
-            top_results = query_results[:7]
+            top_results = query_results[:3]
             context = " ".join([result['content'] for result in top_results])
             generator = Generator()
             answer = generator.generate(query, context)
@@ -145,6 +145,7 @@ if query:
             st.subheader("Generated Answer")
             st.write(answer)
             
+            top_results = query_results[:10]
             st.subheader("Top Retrieved Documents")
             for result in top_results:
                 with st.expander(f"**Title:** {result['title']} - **Page:** {result['page']}"):
