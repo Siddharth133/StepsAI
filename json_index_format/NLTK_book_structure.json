@@ -1,0 +1,462 @@
+{
+  "title": "Natural Language Processing with Python",
+  "parts": [
+    {
+      "title": "1. Language Processing and Python",
+      "chapters": [
+        {
+          "title": "1.1 Computing with Language: Texts and Words",
+          "page": "1"
+        },
+        {
+          "title": "1.2 A Closer Look at Python: Texts as Lists of Words",
+          "page": "10"
+        },
+        {
+          "title": "1.3 Computing with Language: Simple Statistics",
+          "page": "16"
+        },
+        {
+          "title": "1.4 Back to Python: Making Decisions and Taking Control",
+          "page": "22"
+        },
+        {
+          "title": "1.5 Automatic Natural Language Understanding",
+          "page": "27"
+        },
+        {
+          "title": "1.6 Summary",
+          "page": "33"
+        },
+        {
+          "title": "1.7 Further Reading",
+          "page": "34"
+        },
+        {
+          "title": "1.8 Exercises",
+          "page": "35"
+        }
+      ]
+    },
+    {
+      "title": "2. Accessing Text Corpora and Lexical Resources",
+      "chapters": [
+        {
+          "title": "2.1 Accessing Text Corpora",
+          "page": "39"
+        },
+        {
+          "title": "2.2 Conditional Frequency Distributions",
+          "page": "52"
+        },
+        {
+          "title": "2.3 More Python: Reusing Code",
+          "page": "56"
+        },
+        {
+          "title": "2.4 Lexical Resources",
+          "page": "59"
+        },
+        {
+          "title": "2.5 WordNet",
+          "page": "67"
+        },
+        {
+          "title": "2.6 Summary",
+          "page": "73"
+        },
+        {
+          "title": "2.7 Further Reading",
+          "page": "73"
+        },
+        {
+          "title": "2.8 Exercises",
+          "page": "74"
+        }
+      ]
+    },
+    {
+      "title": "3. Processing Raw Text",
+      "chapters": [
+        {
+          "title": "3.1 Accessing Text from the Web and from Disk",
+          "page": "80"
+        },
+        {
+          "title": "3.2 Strings: Text Processing at the Lowest Level",
+          "page": "87"
+        },
+        {
+          "title": "3.3 Text Processing with Unicode",
+          "page": "93"
+        },
+        {
+          "title": "3.4 Regular Expressions for Detecting Word Patterns",
+          "page": "97"
+        },
+        {
+          "title": "3.5 Useful Applications of Regular Expressions",
+          "page": "102"
+        },
+        {
+          "title": "3.6 Normalizing Text",
+          "page": "107"
+        },
+        {
+          "title": "3.7 Regular Expressions for Tokenizing Text",
+          "page": "109"
+        },
+        {
+          "title": "3.8 Segmentation",
+          "page": "112"
+        },
+        {
+          "title": "3.9 Formatting: From Lists to Strings",
+          "page": "116"
+        },
+        {
+          "title": "3.10 Summary",
+          "page": "121"
+        },
+        {
+          "title": "3.11 Further Reading",
+          "page": "122"
+        },
+        {
+          "title": "3.12 Exercises",
+          "page": "123"
+        }
+      ]
+    },
+    {
+      "title": "4. Writing Structured Programs",
+      "chapters": [
+        {
+          "title": "4.1 Back to the Basics",
+          "page": "130"
+        },
+        {
+          "title": "4.2 Sequences",
+          "page": "133"
+        },
+        {
+          "title": "4.3 Questions of Style",
+          "page": "138"
+        },
+        {
+          "title": "4.4 Functions: The Foundation of Structured Programming",
+          "page": "142"
+        },
+        {
+          "title": "4.5 Doing More with Functions",
+          "page": "149"
+        },
+        {
+          "title": "4.6 Program Development",
+          "page": "154"
+        },
+        {
+          "title": "4.7 Algorithm Design",
+          "page": "160"
+        },
+        {
+          "title": "4.8 A Sample of Python Libraries",
+          "page": "167"
+        },
+        {
+          "title": "4.9 Summary",
+          "page": "172"
+        },
+        {
+          "title": "4.10 Further Reading",
+          "page": "173"
+        },
+        {
+          "title": "4.11 Exercises",
+          "page": "173"
+        }
+      ]
+    },
+    {
+      "title": "5. Categorizing and Tagging Words",
+      "chapters": [
+        {
+          "title": "5.1 Using a Tagger",
+          "page": "179"
+        },
+        {
+          "title": "5.2 Tagged Corpora",
+          "page": "181"
+        },
+        {
+          "title": "5.3 Mapping Words to Properties Using Python Dictionaries",
+          "page": "189"
+        },
+        {
+          "title": "5.4 Automatic Tagging",
+          "page": "198"
+        },
+        {
+          "title": "5.5 N-Gram Tagging",
+          "page": "202"
+        },
+        {
+          "title": "5.6 Transformation-Based Tagging",
+          "page": "208"
+        },
+        {
+          "title": "5.7 How to Determine the Category of a Word",
+          "page": "210"
+        },
+        {
+          "title": "5.8 Summary",
+          "page": "213"
+        },
+        {
+          "title": "5.9 Further Reading",
+          "page": "214"
+        },
+        {
+          "title": "5.10 Exercises",
+          "page": "215"
+        }
+      ]
+    },
+    {
+      "title": "6. Learning to Classify Text",
+      "chapters": [
+        {
+          "title": "6.1 Supervised Classification",
+          "page": "221"
+        },
+        {
+          "title": "6.2 Further Examples of Supervised Classification",
+          "page": "233"
+        },
+        {
+          "title": "6.3 Evaluation",
+          "page": "237"
+        },
+        {
+          "title": "6.4 Decision Trees",
+          "page": "242"
+        },
+        {
+          "title": "6.5 Naive Bayes Classifiers",
+          "page": "245"
+        },
+        {
+          "title": "6.6 Maximum Entropy Classifiers",
+          "page": "250"
+        },
+        {
+          "title": "6.7 Modeling Linguistic Patterns",
+          "page": "254"
+        },
+        {
+          "title": "6.8 Summary",
+          "page": "256"
+        },
+        {
+          "title": "6.9 Further Reading",
+          "page": "256"
+        },
+        {
+          "title": "6.10 Exercises",
+          "page": "257"
+        }
+      ]
+    },
+    {
+      "title": "7. Extracting Information from Text",
+      "chapters": [
+        {
+          "title": "7.1 Information Extraction",
+          "page": "261"
+        },
+        {
+          "title": "7.2 Chunking",
+          "page": "264"
+        },
+        {
+          "title": "7.3 Developing and Evaluating Chunkers",
+          "page": "270"
+        },
+        {
+          "title": "7.4 Recursion in Linguistic Structure",
+          "page": "277"
+        },
+        {
+          "title": "7.5 Named Entity Recognition",
+          "page": "281"
+        },
+        {
+          "title": "7.6 Relation Extraction",
+          "page": "284"
+        },
+        {
+          "title": "7.7 Summary",
+          "page": "285"
+        },
+        {
+          "title": "7.8 Further Reading",
+          "page": "286"
+        },
+        {
+          "title": "7.9 Exercises",
+          "page": "286"
+        }
+      ]
+    },
+    {
+      "title": "8. Analyzing Sentence Structure",
+      "chapters": [
+        {
+          "title": "8.1 Some Grammatical Dilemmas",
+          "page": "292"
+        },
+        {
+          "title": "8.2 What’s the Use of Syntax?",
+          "page": "295"
+        },
+        {
+          "title": "8.3 Context-Free Grammar",
+          "page": "298"
+        },
+        {
+          "title": "8.4 Parsing with Context-Free Grammar",
+          "page": "302"
+        },
+        {
+          "title": "8.5 Dependencies and Dependency Grammar",
+          "page": "310"
+        },
+        {
+          "title": "8.6 Grammar Development",
+          "page": "315"
+        },
+        {
+          "title": "8.7 Summary",
+          "page": "321"
+        },
+        {
+          "title": "8.8 Further Reading",
+          "page": "322"
+        },
+        {
+          "title": "8.9 Exercises",
+          "page": "322"
+
+
+        }
+      ]
+    },
+    {
+      "title": "9. Building Feature-Based Grammars",
+      "chapters": [
+        {
+          "title": "9.1 Grammatical Features",
+          "page": "327"
+        },
+        {
+          "title": "9.2 Processing Feature Structures",
+          "page": "337"
+        },
+        {
+          "title": "9.3 Extending a Feature-Based Grammar",
+          "page": "344"
+        },
+        {
+          "title": "9.4 Summary",
+          "page": "356"
+        },
+        {
+          "title": "9.5 Further Reading",
+          "page": "357"
+        },
+        {
+          "title": "9.6 Exercises",
+          "page": "358"
+        }
+      ]
+    },
+    {
+      "title": "10. Analyzing the Meaning of Sentences",
+      "chapters": [
+        {
+          "title": "10.1 Natural Language Understanding",
+          "page": "361"
+        },
+        {
+          "title": "10.2 Propositional Logic",
+          "page": "368"
+        },
+        {
+          "title": "10.3 First-Order Logic",
+          "page": "372"
+        },
+        {
+          "title": "10.4 The Semantics of English Sentences",
+          "page": "385"
+        },
+        {
+          "title": "10.5 Discourse Semantics",
+          "page": "397"
+        },
+        {
+          "title": "10.6 Summary",
+          "page": "402"
+        },
+        {
+          "title": "10.7 Further Reading",
+          "page": "403"
+        },
+        {
+          "title": "10.8 Exercises",
+          "page": "404"
+        }
+      ]
+    },
+    {
+      "title": "11. Managing Linguistic Data",
+      "chapters": [
+        {
+          "title": "11.1 Corpus Structure: A Case Study",
+          "page": "407"
+        },
+        {
+          "title": "11.2 The Life Cycle of a Corpus",
+          "page": "412"
+        },
+        {
+          "title": "11.3 Acquiring Data",
+          "page": "416"
+        },
+        {
+          "title": "11.4 Working with XML",
+          "page": "425"
+        },
+        {
+          "title": "11.5 Working with Toolbox Data",
+          "page": "431"
+        },
+        {
+          "title": "11.6 Describing Language Resources Using OLAC Metadata",
+          "page": "435"
+        },
+        {
+          "title": "11.7 Summary",
+          "page": "437"
+        },
+        {
+          "title": "11.8 Further Reading",
+          "page": "437"
+        },
+        {
+          "title": "11.9 Exercises",
+          "page": "438"
+        }
+      ]
+    }
+  ]
+}

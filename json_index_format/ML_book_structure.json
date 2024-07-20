@@ -1,0 +1,1459 @@
+{
+  "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+  "parts": [
+    {
+      "title": "Part I. The Fundamentals of Machine Learning",
+      "chapters": [
+        {
+          "title": "1. The Machine Learning Landscape. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "3",
+          "sections": [
+            {
+              "title": "What Is Machine Learning?",
+              "page": "4",
+              "subsections": []
+            },
+            {
+              "title": "Why Use Machine Learning?",
+              "page": "4",
+              "subsections": []
+            },
+            {
+              "title": "Types of Machine Learning Systems",
+              "page": "8",
+              "subsections": []
+            },
+            {
+              "title": "Supervised/Unsupervised Learning",
+              "page": "8",
+              "subsections": []
+            },
+            {
+              "title": "Batch and Online Learning",
+              "page": "15",
+              "subsections": []
+            },
+            {
+              "title": "Instance-Based Versus Model-Based Learning",
+              "page": "18",
+              "subsections": []
+            },
+            {
+              "title": "Main Challenges of Machine Learning",
+              "page": "24",
+              "subsections": []
+            },
+            {
+              "title": "Insufficient Quantity of Training Data",
+              "page": "24",
+              "subsections": []
+            },
+            {
+              "title": "Nonrepresentative Training Data",
+              "page": "26",
+              "subsections": []
+            },
+            {
+              "title": "Poor-Quality Data",
+              "page": "27",
+              "subsections": []
+            },
+            {
+              "title": "Irrelevant Features",
+              "page": "27",
+              "subsections": []
+            },
+            {
+              "title": "Overfitting the Training Data",
+              "page": "28",
+              "subsections": []
+            },
+            {
+              "title": "Underfitting the Training Data",
+              "page": "30",
+              "subsections": []
+            },
+            {
+              "title": "Stepping Back",
+              "page": "30",
+              "subsections": []
+            },
+            {
+              "title": "Testing and Validating",
+              "page": "31",
+              "subsections": []
+            },
+            {
+              "title": "Hyperparameter Tuning and Model Selection",
+              "page": "32",
+              "subsections": []
+            },
+            {
+              "title": "Data Mismatch",
+              "page": "33",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "34",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "2. End-to-End Machine Learning Project. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "37",
+          "sections": [
+            {
+              "title": "Working with Real Data",
+              "page": "38",
+              "subsections": []
+            },
+            {
+              "title": "Look at the Big Picture",
+              "page": "39",
+              "subsections": []
+            },
+            {
+              "title": "Frame the Problem",
+              "page": "39",
+              "subsections": []
+            },
+            {
+              "title": "Select a Performance Measure",
+              "page": "42",
+              "subsections": []
+            },
+            {
+              "title": "Check the Assumptions",
+              "page": "45",
+              "subsections": []
+            },
+            {
+              "title": "Get the Data",
+              "page": "45",
+              "subsections": []
+            },
+            {
+              "title": "Create the Workspace",
+              "page": "45",
+              "subsections": []
+            },
+            {
+              "title": "Download the Data",
+              "page": "49",
+              "subsections": []
+            },
+            {
+              "title": "Take a Quick Look at the Data Structure",
+              "page": "50",
+              "subsections": []
+            },
+            {
+              "title": "Create a Test Set",
+              "page": "54",
+              "subsections": []
+            },
+            {
+              "title": "Discover and Visualize the Data to Gain Insights",
+              "page": "58",
+              "subsections": []
+            },
+            {
+              "title": "Visualizing Geographical Data",
+              "page": "59",
+              "subsections": []
+            },
+            {
+              "title": "Looking for Correlations",
+              "page": "62",
+              "subsections": []
+            },
+            {
+              "title": "Experimenting with Attribute Combinations",
+              "page": "65",
+              "subsections": []
+            },
+            {
+              "title": "Prepare the Data for Machine Learning Algorithms",
+              "page": "66",
+              "subsections": []
+            },
+            {
+              "title": "Data Cleaning",
+              "page": "67",
+              "subsections": []
+            },
+            {
+              "title": "Handling Text and Categorical Attributes",
+              "page": "69",
+              "subsections": []
+            },
+            {
+              "title": "Custom Transformers",
+              "page": "71",
+              "subsections": []
+            },
+            {
+              "title": "Feature Scaling",
+              "page": "72",
+              "subsections": []
+            },
+            {
+              "title": "Transformation Pipelines",
+              "page": "73",
+              "subsections": []
+            },
+            {
+              "title": "Select and Train a Model",
+              "page": "75",
+              "subsections": []
+            },
+            {
+              "title": "Training and Evaluating on the Training Set",
+              "page": "75",
+              "subsections": []
+            },
+            {
+              "title": "Better Evaluation Using Cross-Validation",
+              "page": "76",
+              "subsections": []
+            },
+            {
+              "title": "Fine-Tune Your Model",
+              "page": "79",
+              "subsections": []
+            },
+            {
+              "title": "Grid Search",
+              "page": "79",
+              "subsections": []
+            },
+            {
+              "title": "Randomized Search",
+              "page": "81",
+              "subsections": []
+            },
+            {
+              "title": "Ensemble Methods",
+              "page": "82",
+              "subsections": []
+            },
+            {
+              "title": "Analyze the Best Models and Their Errors",
+              "page": "82",
+              "subsections": []
+            },
+            {
+              "title": "Evaluate Your System on the Test Set",
+              "page": "83",
+              "subsections": []
+            },
+            {
+              "title": "Launch, Monitor, and Maintain Your System",
+              "page": "84",
+              "subsections": []
+            },
+            {
+              "title": "Try It Out!",
+              "page": "85",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "85",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "3. Classification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "87",
+          "sections": [
+            {
+              "title": "MNIST",
+              "page": "87",
+              "subsections": []
+            },
+            {
+              "title": "Training a Binary Classifier",
+              "page": "90",
+              "subsections": []
+            },
+            {
+              "title": "Performance Measures",
+              "page": "90",
+              "subsections": []
+            },
+            {
+              "title": "Measuring Accuracy Using Cross-Validation",
+              "page": "91",
+              "subsections": []
+            },
+            {
+              "title": "Confusion Matrix",
+              "page": "92",
+              "subsections": []
+            },
+            {
+              "title": "Precision and Recall",
+              "page": "94",
+              "subsections": []
+            },
+            {
+              "title": "Precision/Recall Tradeoff",
+              "page": "95",
+              "subsections": []
+            },
+            {
+              "title": "The ROC Curve",
+              "page": "99",
+              "subsections": []
+            },
+            {
+              "title": "Multiclass Classification",
+              "page": "102",
+              "subsections": []
+            },
+            {
+              "title": "Error Analysis",
+              "page": "104",
+              "subsections": []
+            },
+            {
+              "title": "iv | Table of",
+              "page": "Contents",
+              "subsections": []
+            },
+            {
+              "title": "Multilabel Classification",
+              "page": "108",
+              "subsections": []
+            },
+            {
+              "title": "Multioutput Classification",
+              "page": "109",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "110",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "4. Training Models. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "113",
+          "sections": [
+            {
+              "title": "Linear Regression",
+              "page": "114",
+              "subsections": []
+            },
+            {
+              "title": "The Normal Equation",
+              "page": "116",
+              "subsections": []
+            },
+            {
+              "title": "Computational Complexity",
+              "page": "119",
+              "subsections": []
+            },
+            {
+              "title": "Gradient Descent",
+              "page": "119",
+              "subsections": []
+            },
+            {
+              "title": "Batch Gradient Descent",
+              "page": "123",
+              "subsections": []
+            },
+            {
+              "title": "Stochastic Gradient Descent",
+              "page": "126",
+              "subsections": []
+            },
+            {
+              "title": "Mini-batch Gradient Descent",
+              "page": "129",
+              "subsections": []
+            },
+            {
+              "title": "Polynomial Regression",
+              "page": "130",
+              "subsections": []
+            },
+            {
+              "title": "Learning Curves",
+              "page": "132",
+              "subsections": []
+            },
+            {
+              "title": "Regularized Linear Models",
+              "page": "136",
+              "subsections": []
+            },
+            {
+              "title": "Ridge Regression",
+              "page": "137",
+              "subsections": []
+            },
+            {
+              "title": "Lasso Regression",
+              "page": "139",
+              "subsections": []
+            },
+            {
+              "title": "Elastic Net",
+              "page": "142",
+              "subsections": []
+            },
+            {
+              "title": "Early Stopping",
+              "page": "142",
+              "subsections": []
+            },
+            {
+              "title": "Logistic Regression",
+              "page": "144",
+              "subsections": []
+            },
+            {
+              "title": "Estimating Probabilities",
+              "page": "144",
+              "subsections": []
+            },
+            {
+              "title": "Training and Cost Function",
+              "page": "145",
+              "subsections": []
+            },
+            {
+              "title": "Decision Boundaries",
+              "page": "146",
+              "subsections": []
+            },
+            {
+              "title": "Softmax Regression",
+              "page": "149",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "153",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "5. Support Vector Machines. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "155",
+          "sections": [
+            {
+              "title": "Linear SVM Classification",
+              "page": "155",
+              "subsections": []
+            },
+            {
+              "title": "Soft Margin Classification",
+              "page": "156",
+              "subsections": []
+            },
+            {
+              "title": "Nonlinear SVM Classification",
+              "page": "159",
+              "subsections": []
+            },
+            {
+              "title": "Polynomial Kernel",
+              "page": "160",
+              "subsections": []
+            },
+            {
+              "title": "Adding Similarity Features",
+              "page": "161",
+              "subsections": []
+            },
+            {
+              "title": "Gaussian RBF Kernel",
+              "page": "162",
+              "subsections": []
+            },
+            {
+              "title": "Computational Complexity",
+              "page": "163",
+              "subsections": []
+            },
+            {
+              "title": "SVM Regression",
+              "page": "164",
+              "subsections": []
+            },
+            {
+              "title": "Under the Hood",
+              "page": "166",
+              "subsections": []
+            },
+            {
+              "title": "Decision Function and Predictions",
+              "page": "166",
+              "subsections": []
+            },
+            {
+              "title": "Training Objective",
+              "page": "167",
+              "subsections": []
+            },
+            {
+              "title": "Quadratic Programming",
+              "page": "169",
+              "subsections": []
+            },
+            {
+              "title": "The Dual Problem",
+              "page": "170",
+              "subsections": []
+            },
+            {
+              "title": "Kernelized SVM",
+              "page": "171",
+              "subsections": []
+            },
+            {
+              "title": "Online SVMs",
+              "page": "174",
+              "subsections": []
+            },
+            {
+              "title": "Table of Contents |",
+              "page": "v",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "175",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "6. Decision Trees. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "177",
+          "sections": [
+            {
+              "title": "Training and Visualizing a Decision Tree",
+              "page": "177",
+              "subsections": []
+            },
+            {
+              "title": "Making Predictions",
+              "page": "179",
+              "subsections": []
+            },
+            {
+              "title": "Estimating Class Probabilities",
+              "page": "181",
+              "subsections": []
+            },
+            {
+              "title": "The CART Training Algorithm",
+              "page": "182",
+              "subsections": []
+            },
+            {
+              "title": "Computational Complexity",
+              "page": "183",
+              "subsections": []
+            },
+            {
+              "title": "Gini Impurity or Entropy?",
+              "page": "183",
+              "subsections": []
+            },
+            {
+              "title": "Regularization Hyperparameters",
+              "page": "184",
+              "subsections": []
+            },
+            {
+              "title": "Regression",
+              "page": "185",
+              "subsections": []
+            },
+            {
+              "title": "Instability",
+              "page": "188",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "189",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "7. Ensemble Learning and Random Forests. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "191",
+          "sections": [
+            {
+              "title": "Voting Classifiers",
+              "page": "192",
+              "subsections": []
+            },
+            {
+              "title": "Bagging and Pasting",
+              "page": "195",
+              "subsections": []
+            },
+            {
+              "title": "Bagging and Pasting in Scikit-Learn",
+              "page": "196",
+              "subsections": []
+            },
+            {
+              "title": "Out-of-Bag Evaluation",
+              "page": "197",
+              "subsections": []
+            },
+            {
+              "title": "Random Patches and Random Subspaces",
+              "page": "198",
+              "subsections": []
+            },
+            {
+              "title": "Random Forests",
+              "page": "199",
+              "subsections": []
+            },
+            {
+              "title": "Extra-Trees",
+              "page": "200",
+              "subsections": []
+            },
+            {
+              "title": "Feature Importance",
+              "page": "200",
+              "subsections": []
+            },
+            {
+              "title": "Boosting",
+              "page": "201",
+              "subsections": []
+            },
+            {
+              "title": "AdaBoost",
+              "page": "202",
+              "subsections": []
+            },
+            {
+              "title": "Gradient Boosting",
+              "page": "205",
+              "subsections": []
+            },
+            {
+              "title": "Stacking",
+              "page": "210",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "213",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "8. Dimensionality Reduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "215",
+          "sections": [
+            {
+              "title": "The Curse of Dimensionality",
+              "page": "216",
+              "subsections": []
+            },
+            {
+              "title": "Main Approaches for Dimensionality Reduction",
+              "page": "218",
+              "subsections": []
+            },
+            {
+              "title": "Projection",
+              "page": "218",
+              "subsections": []
+            },
+            {
+              "title": "Manifold Learning",
+              "page": "220",
+              "subsections": []
+            },
+            {
+              "title": "PCA",
+              "page": "222",
+              "subsections": []
+            },
+            {
+              "title": "Preserving the Variance",
+              "page": "222",
+              "subsections": []
+            },
+            {
+              "title": "Principal Components",
+              "page": "223",
+              "subsections": []
+            },
+            {
+              "title": "Projecting Down to d Dimensions",
+              "page": "224",
+              "subsections": []
+            },
+            {
+              "title": "Using Scikit-Learn",
+              "page": "224",
+              "subsections": []
+            },
+            {
+              "title": "Explained Variance Ratio",
+              "page": "225",
+              "subsections": []
+            },
+            {
+              "title": "Choosing the Right Number of Dimensions",
+              "page": "225",
+              "subsections": []
+            },
+            {
+              "title": "PCA for Compression",
+              "page": "226",
+              "subsections": []
+            },
+            {
+              "title": "vi | Table of",
+              "page": "Contents",
+              "subsections": []
+            },
+            {
+              "title": "Randomized PCA",
+              "page": "227",
+              "subsections": []
+            },
+            {
+              "title": "Incremental PCA",
+              "page": "227",
+              "subsections": []
+            },
+            {
+              "title": "Kernel PCA",
+              "page": "228",
+              "subsections": []
+            },
+            {
+              "title": "Selecting a Kernel and Tuning Hyperparameters",
+              "page": "229",
+              "subsections": []
+            },
+            {
+              "title": "LLE",
+              "page": "232",
+              "subsections": []
+            },
+            {
+              "title": "Other Dimensionality Reduction Techniques",
+              "page": "234",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "235",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "9. Unsupervised Learning Techniques. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "237",
+          "sections": [
+            {
+              "title": "Clustering",
+              "page": "238",
+              "subsections": []
+            },
+            {
+              "title": "K-Means",
+              "page": "240",
+              "subsections": []
+            },
+            {
+              "title": "Limits of K-Means",
+              "page": "250",
+              "subsections": []
+            },
+            {
+              "title": "Using clustering for image segmentation",
+              "page": "251",
+              "subsections": []
+            },
+            {
+              "title": "Using Clustering for Preprocessing",
+              "page": "252",
+              "subsections": []
+            },
+            {
+              "title": "Using Clustering for Semi-Supervised Learning",
+              "page": "254",
+              "subsections": []
+            },
+            {
+              "title": "DBSCAN",
+              "page": "256",
+              "subsections": []
+            },
+            {
+              "title": "Other Clustering Algorithms",
+              "page": "259",
+              "subsections": []
+            },
+            {
+              "title": "Gaussian Mixtures",
+              "page": "260",
+              "subsections": []
+            },
+            {
+              "title": "Anomaly Detection using Gaussian Mixtures",
+              "page": "266",
+              "subsections": []
+            },
+            {
+              "title": "Selecting the Number of Clusters",
+              "page": "267",
+              "subsections": []
+            },
+            {
+              "title": "Bayesian Gaussian Mixture Models",
+              "page": "270",
+              "subsections": []
+            },
+            {
+              "title": "Other Anomaly Detection and Novelty Detection Algorithms",
+              "page": "274",
+              "subsections": []
+            },
+            {
+              "title": "Part II. Neural Networks and Deep",
+              "page": "Learning",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "10. Introduction to Artificial Neural Networks with Keras. . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "277",
+          "sections": [
+            {
+              "title": "From Biological to Artificial Neurons",
+              "page": "278",
+              "subsections": []
+            },
+            {
+              "title": "Biological Neurons",
+              "page": "279",
+              "subsections": []
+            },
+            {
+              "title": "Logical Computations with Neurons",
+              "page": "281",
+              "subsections": []
+            },
+            {
+              "title": "The Perceptron",
+              "page": "281",
+              "subsections": []
+            },
+            {
+              "title": "Multi-Layer Perceptron and Backpropagation",
+              "page": "286",
+              "subsections": []
+            },
+            {
+              "title": "Regression MLPs",
+              "page": "289",
+              "subsections": []
+            },
+            {
+              "title": "Classification MLPs",
+              "page": "290",
+              "subsections": []
+            },
+            {
+              "title": "Implementing MLPs with Keras",
+              "page": "292",
+              "subsections": []
+            },
+            {
+              "title": "Installing TensorFlow 2",
+              "page": "293",
+              "subsections": []
+            },
+            {
+              "title": "Building an Image Classifier Using the Sequential API",
+              "page": "294",
+              "subsections": []
+            },
+            {
+              "title": "Building a Regression MLP Using the Sequential API",
+              "page": "303",
+              "subsections": []
+            },
+            {
+              "title": "Building Complex Models Using the Functional API",
+              "page": "304",
+              "subsections": []
+            },
+            {
+              "title": "Building Dynamic Models Using the Subclassing API",
+              "page": "309",
+              "subsections": []
+            },
+            {
+              "title": "Saving and Restoring a Model",
+              "page": "311",
+              "subsections": []
+            },
+            {
+              "title": "Using Callbacks",
+              "page": "311",
+              "subsections": []
+            },
+            {
+              "title": "Table of Contents |",
+              "page": "vii",
+              "subsections": []
+            },
+            {
+              "title": "Visualization Using TensorBoard",
+              "page": "313",
+              "subsections": []
+            },
+            {
+              "title": "Fine-Tuning Neural Network Hyperparameters",
+              "page": "315",
+              "subsections": []
+            },
+            {
+              "title": "Number of Hidden Layers",
+              "page": "319",
+              "subsections": []
+            },
+            {
+              "title": "Number of Neurons per Hidden Layer",
+              "page": "320",
+              "subsections": []
+            },
+            {
+              "title": "Learning Rate, Batch Size and Other Hyperparameters",
+              "page": "320",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "322",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "11. Training Deep Neural Networks. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "325",
+          "sections": [
+            {
+              "title": "Vanishing/Exploding Gradients Problems",
+              "page": "326",
+              "subsections": []
+            },
+            {
+              "title": "Glorot and He Initialization",
+              "page": "327",
+              "subsections": []
+            },
+            {
+              "title": "Nonsaturating Activation Functions",
+              "page": "329",
+              "subsections": []
+            },
+            {
+              "title": "Batch Normalization",
+              "page": "333",
+              "subsections": []
+            },
+            {
+              "title": "Gradient Clipping",
+              "page": "338",
+              "subsections": []
+            },
+            {
+              "title": "Reusing Pretrained Layers",
+              "page": "339",
+              "subsections": []
+            },
+            {
+              "title": "Transfer Learning With Keras",
+              "page": "341",
+              "subsections": []
+            },
+            {
+              "title": "Unsupervised Pretraining",
+              "page": "343",
+              "subsections": []
+            },
+            {
+              "title": "Pretraining on an Auxiliary Task",
+              "page": "344",
+              "subsections": []
+            },
+            {
+              "title": "Faster Optimizers",
+              "page": "344",
+              "subsections": []
+            },
+            {
+              "title": "Momentum Optimization",
+              "page": "345",
+              "subsections": []
+            },
+            {
+              "title": "Nesterov Accelerated Gradient",
+              "page": "346",
+              "subsections": []
+            },
+            {
+              "title": "AdaGrad",
+              "page": "347",
+              "subsections": []
+            },
+            {
+              "title": "RMSProp",
+              "page": "349",
+              "subsections": []
+            },
+            {
+              "title": "Adam and Nadam Optimization",
+              "page": "349",
+              "subsections": []
+            },
+            {
+              "title": "Learning Rate Scheduling",
+              "page": "352",
+              "subsections": []
+            },
+            {
+              "title": "Avoiding Overfitting Through Regularization",
+              "page": "356",
+              "subsections": []
+            },
+            {
+              "title": "and",
+              "page": "\u21132",
+              "subsections": []
+            },
+            {
+              "title": "Regularization",
+              "page": "356",
+              "subsections": []
+            },
+            {
+              "title": "Dropout",
+              "page": "357",
+              "subsections": []
+            },
+            {
+              "title": "Monte-Carlo (MC) Dropout",
+              "page": "360",
+              "subsections": []
+            },
+            {
+              "title": "Max-Norm Regularization",
+              "page": "362",
+              "subsections": []
+            },
+            {
+              "title": "Summary and Practical Guidelines",
+              "page": "363",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "364",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "12. Custom Models and Training with TensorFlow. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "367",
+          "sections": [
+            {
+              "title": "A Quick Tour of TensorFlow",
+              "page": "368",
+              "subsections": []
+            },
+            {
+              "title": "Using TensorFlow like NumPy",
+              "page": "371",
+              "subsections": []
+            },
+            {
+              "title": "Tensors and Operations",
+              "page": "371",
+              "subsections": []
+            },
+            {
+              "title": "Tensors and NumPy",
+              "page": "373",
+              "subsections": []
+            },
+            {
+              "title": "Type Conversions",
+              "page": "374",
+              "subsections": []
+            },
+            {
+              "title": "Variables",
+              "page": "374",
+              "subsections": []
+            },
+            {
+              "title": "Other Data Structures",
+              "page": "375",
+              "subsections": []
+            },
+            {
+              "title": "Customizing Models and Training Algorithms",
+              "page": "376",
+              "subsections": []
+            },
+            {
+              "title": "Custom Loss Functions",
+              "page": "376",
+              "subsections": []
+            },
+            {
+              "title": "viii | Table of",
+              "page": "Contents",
+              "subsections": []
+            },
+            {
+              "title": "Saving and Loading Models That Contain Custom Components",
+              "page": "377",
+              "subsections": []
+            },
+            {
+              "title": "Custom Activation Functions, Initializers, Regularizers, and Constraints",
+              "page": "379",
+              "subsections": []
+            },
+            {
+              "title": "Custom Metrics",
+              "page": "380",
+              "subsections": []
+            },
+            {
+              "title": "Custom Layers",
+              "page": "383",
+              "subsections": []
+            },
+            {
+              "title": "Custom Models",
+              "page": "386",
+              "subsections": []
+            },
+            {
+              "title": "Losses and Metrics Based on Model Internals",
+              "page": "388",
+              "subsections": []
+            },
+            {
+              "title": "Computing Gradients Using Autodiff",
+              "page": "389",
+              "subsections": []
+            },
+            {
+              "title": "Custom Training Loops",
+              "page": "393",
+              "subsections": []
+            },
+            {
+              "title": "TensorFlow Functions and Graphs",
+              "page": "396",
+              "subsections": []
+            },
+            {
+              "title": "Autograph and Tracing",
+              "page": "398",
+              "subsections": []
+            },
+            {
+              "title": "TF Function Rules",
+              "page": "400",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "13. Loading and Preprocessing Data with TensorFlow. . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+          "page": "403",
+          "sections": [
+            {
+              "title": "The Data API",
+              "page": "404",
+              "subsections": []
+            },
+            {
+              "title": "Chaining Transformations",
+              "page": "405",
+              "subsections": []
+            },
+            {
+              "title": "Shuffling the Data",
+              "page": "406",
+              "subsections": []
+            },
+            {
+              "title": "Preprocessing the Data",
+              "page": "409",
+              "subsections": []
+            },
+            {
+              "title": "Putting Everything Together",
+              "page": "410",
+              "subsections": []
+            },
+            {
+              "title": "Prefetching",
+              "page": "411",
+              "subsections": []
+            },
+            {
+              "title": "Using the Dataset With tf.keras",
+              "page": "413",
+              "subsections": []
+            },
+            {
+              "title": "The TFRecord Format",
+              "page": "414",
+              "subsections": []
+            },
+            {
+              "title": "Compressed TFRecord Files",
+              "page": "415",
+              "subsections": []
+            },
+            {
+              "title": "A Brief Introduction to Protocol Buffers",
+              "page": "415",
+              "subsections": []
+            },
+            {
+              "title": "TensorFlow Protobufs",
+              "page": "416",
+              "subsections": []
+            },
+            {
+              "title": "Loading and Parsing Examples",
+              "page": "418",
+              "subsections": []
+            },
+            {
+              "title": "Handling Lists of Lists Using the SequenceExample Protobuf",
+              "page": "419",
+              "subsections": []
+            },
+            {
+              "title": "The Features API",
+              "page": "420",
+              "subsections": []
+            },
+            {
+              "title": "Categorical Features",
+              "page": "421",
+              "subsections": []
+            },
+            {
+              "title": "Crossed Categorical Features",
+              "page": "421",
+              "subsections": []
+            },
+            {
+              "title": "Encoding Categorical Features Using One-Hot Vectors",
+              "page": "422",
+              "subsections": []
+            },
+            {
+              "title": "Encoding Categorical Features Using Embeddings",
+              "page": "423",
+              "subsections": []
+            },
+            {
+              "title": "Using Feature Columns for Parsing",
+              "page": "426",
+              "subsections": []
+            },
+            {
+              "title": "Using Feature Columns in Your Models",
+              "page": "426",
+              "subsections": []
+            },
+            {
+              "title": "TF Transform",
+              "page": "428",
+              "subsections": []
+            },
+            {
+              "title": "The TensorFlow Datasets (TFDS) Project",
+              "page": "429",
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "14. Deep Computer Vision Using Convolutional Neural Networks. . . . . . . . . . . . . . . . . . .",
+          "page": "431",
+          "sections": [
+            {
+              "title": "The Architecture of the Visual Cortex",
+              "page": "432",
+              "subsections": []
+            },
+            {
+              "title": "Convolutional Layer",
+              "page": "434",
+              "subsections": []
+            },
+            {
+              "title": "Filters",
+              "page": "436",
+              "subsections": []
+            },
+            {
+              "title": "Stacking Multiple Feature Maps",
+              "page": "437",
+              "subsections": []
+            },
+            {
+              "title": "TensorFlow Implementation",
+              "page": "439",
+              "subsections": []
+            },
+            {
+              "title": "Table of Contents |",
+              "page": "ix",
+              "subsections": []
+            },
+            {
+              "title": "Memory Requirements",
+              "page": "441",
+              "subsections": []
+            },
+            {
+              "title": "Pooling Layer",
+              "page": "442",
+              "subsections": []
+            },
+            {
+              "title": "TensorFlow Implementation",
+              "page": "444",
+              "subsections": []
+            },
+            {
+              "title": "CNN Architectures",
+              "page": "446",
+              "subsections": []
+            },
+            {
+              "title": "LeNet-5",
+              "page": "449",
+              "subsections": []
+            },
+            {
+              "title": "AlexNet",
+              "page": "450",
+              "subsections": []
+            },
+            {
+              "title": "GoogLeNet",
+              "page": "452",
+              "subsections": []
+            },
+            {
+              "title": "VGGNet",
+              "page": "456",
+              "subsections": []
+            },
+            {
+              "title": "ResNet",
+              "page": "457",
+              "subsections": []
+            },
+            {
+              "title": "Xception",
+              "page": "459",
+              "subsections": []
+            },
+            {
+              "title": "SENet",
+              "page": "461",
+              "subsections": []
+            },
+            {
+              "title": "Implementing a ResNet-34 CNN Using Keras",
+              "page": "464",
+              "subsections": []
+            },
+            {
+              "title": "Using Pretrained Models From Keras",
+              "page": "465",
+              "subsections": []
+            },
+            {
+              "title": "Pretrained Models for Transfer Learning",
+              "page": "467",
+              "subsections": []
+            },
+            {
+              "title": "Classification and Localization",
+              "page": "469",
+              "subsections": []
+            },
+            {
+              "title": "Object Detection",
+              "page": "471",
+              "subsections": []
+            },
+            {
+              "title": "Fully Convolutional Networks (FCNs)",
+              "page": "473",
+              "subsections": []
+            },
+            {
+              "title": "You Only Look Once (YOLO)",
+              "page": "475",
+              "subsections": []
+            },
+            {
+              "title": "Semantic Segmentation",
+              "page": "478",
+              "subsections": []
+            },
+            {
+              "title": "Exercises",
+              "page": "482",
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
