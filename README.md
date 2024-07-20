@@ -27,8 +27,8 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:
 
     ```bash
-    git clone [https://github.com/yourusername/document-search-qa-system.git](https://github.com/Siddharth133/StepsAI.git)
-    cd document-search-qa-system
+    git clone https://github.com/Siddharth133/StepsAI.git
+    cd StepsAI
     ```
 
 2. **Install Dependencies**:
@@ -71,8 +71,8 @@ streamlit run app.py
 # Project Structure
 
 ```bash
-document-search-qa-system/
-├── app.py                # Main Streamlit application
+StepsAI/
+├── user_interface.py     # Main Streamlit application
 ├── index.py              # Indexing and search functionalities
 ├── generator.py          # Query expansion and answer generation
 ├── requirements.txt      # Python dependencies
